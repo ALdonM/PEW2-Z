@@ -1,0 +1,35 @@
+{
+  "model": "PEW-C + model Z, reduced first test",
+  "scope": "fixed Hopf Q=1 texture; free amplitude; fixed chi_g=0; scale scan; orientation not varied",
+  "parameters": "dimensionless exploratory values, not physical predictions",
+  "results": [
+    {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 46,
+      "nfev": 52,
+      "energy_amplitude_orientation_phase": 96.52477884843427,
+      "energy_faddeev": 126.573986699658,
+      "energy_total": 223.09876554809227,
+      "rho_min": 0.6125952685052118,
+      "rho_max": 1.0,
+      "rho_boundary": 1.0,
+      "gradient_inf_norm": 3.5586928776729895e-06,
+      "vacuum_energy_density_subtracted": 2.0,
+      "scale_L": 1.2,
+      "N": 81,
+      "box": 6.0,
+      "dx": 0.15000000000000036,
+      "alpha_prime": 1.0,
+      "lambda": 1.0,
+      "mu": 1.0,
+      "e0": 1.0,
+      "chi_g_fixed": 0.0,
+      "orientation_varied": false,
+      "elapsed_seconds": 7.434
+    }
+  ],
+  "lowest_sampled_scale": 1.2,
+  "lowest_sampled_energy": 223.09876554809227,
+  "warning": "A minimum among sampled scales is not a full 3D variational minimum or stability proof."
+}

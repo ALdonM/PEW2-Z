@@ -1,0 +1,29 @@
+{
+  "description": "Local reduced scale scan at N=81, box/L=5; amplitude relaxed, Hopf texture and chi_g fixed.",
+  "parameters": "alpha_prime=lambda=mu=e0=1; dimensionless exploratory values",
+  "results": [
+    {
+      "scale_L": 1.2,
+      "dx": 0.15000000000000036,
+      "energy_amplitude_orientation_phase": 96.52477884843427,
+      "energy_faddeev": 126.573986699658,
+      "energy_total": 223.09876554809227,
+      "rho_min": 0.6125952685052118,
+      "success": true,
+      "iterations": 46,
+      "gradient_inf_norm": 3.5586928776729895e-06
+    },
+    {
+      "scale_L": 1.3,
+      "dx": 0.16249999999999964,
+      "energy_amplitude_orientation_phase": 105.97436413557197,
+      "energy_faddeev": 116.83752618430024,
+      "energy_total": 222.81189031987222,
+      "rho_min": 0.6326319927919105,
+      "success": true,
+      "iterations": 43,
+      "gradient_inf_norm": 1.9282978698584563e-05
+    }
+  ],
+  "warning": "Not a full model-Z soliton minimization."
+}

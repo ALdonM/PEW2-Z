@@ -1,0 +1,47 @@
+{
+  "description": "Local reduced scale scan at N=61, box/L=5; amplitude relaxed, Hopf texture and chi_g fixed.",
+  "parameters": "alpha_prime=lambda=mu=e0=1; dimensionless exploratory values",
+  "results": [
+    {
+      "scale_L": 1.1,
+      "dx": 0.18333333333333357,
+      "energy_amplitude_orientation_phase": 86.6765594657179,
+      "energy_faddeev": 134.06987705007924,
+      "energy_total": 220.74643651579714,
+      "rho_min": 0.5979747583521035,
+      "success": true,
+      "iterations": 38
+    },
+    {
+      "scale_L": 1.2,
+      "dx": 0.20000000000000018,
+      "energy_amplitude_orientation_phase": 96.01090800654327,
+      "energy_faddeev": 122.897387295906,
+      "energy_total": 218.9082953024493,
+      "rho_min": 0.6195991941065321,
+      "success": true,
+      "iterations": 35
+    },
+    {
+      "scale_L": 1.3,
+      "dx": 0.21666666666666679,
+      "energy_amplitude_orientation_phase": 105.38801478522414,
+      "energy_faddeev": 113.44374211929791,
+      "energy_total": 218.83175690452205,
+      "rho_min": 0.6397069010973077,
+      "success": true,
+      "iterations": 35
+    },
+    {
+      "scale_L": 1.4,
+      "dx": 0.2333333333333334,
+      "energy_amplitude_orientation_phase": 114.79673165565085,
+      "energy_faddeev": 105.34061768220523,
+      "energy_total": 220.13734933785608,
+      "rho_min": 0.6583923848554365,
+      "success": true,
+      "iterations": 32
+    }
+  ],
+  "warning": "Not a full model-Z soliton minimization."
+}
