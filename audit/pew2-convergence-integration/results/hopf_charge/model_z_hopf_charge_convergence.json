@@ -1,0 +1,79 @@
+{
+  "diagnostic": "discrete Hopf invariant of prescribed smooth-spinor background",
+  "convention": "Q_H=(1/(16*pi^2))*integral A dot curl(A) d^3x, A=2a",
+  "scope_warning": "This verifies the background texture only; not a relaxed soliton or full model-Z minimizer.",
+  "results": [
+    {
+      "N": 31,
+      "box": 5.0,
+      "scale": 1.0,
+      "dx": 0.33333333333333304,
+      "integral_a_curl_a": 34.23794315305198,
+      "Q_H_discrete": 0.8672572314365753,
+      "Q_H_error_vs_1": 0.1327427685634247
+    },
+    {
+      "N": 41,
+      "box": 5.0,
+      "scale": 1.0,
+      "dx": 0.25,
+      "integral_a_curl_a": 36.281606806993295,
+      "Q_H_discrete": 0.919023836532615,
+      "Q_H_error_vs_1": 0.08097616346738501
+    },
+    {
+      "N": 61,
+      "box": 5.0,
+      "scale": 1.0,
+      "dx": 0.16666666666666696,
+      "integral_a_curl_a": 37.852213365902486,
+      "Q_H_discrete": 0.9588077654288896,
+      "Q_H_error_vs_1": 0.04119223457111043
+    },
+    {
+      "N": 81,
+      "box": 5.0,
+      "scale": 1.0,
+      "dx": 0.125,
+      "integral_a_curl_a": 38.424826874324125,
+      "Q_H_discrete": 0.9733122350396076,
+      "Q_H_error_vs_1": 0.02668776496039238
+    },
+    {
+      "N": 65,
+      "box": 4.0,
+      "scale": 1.0,
+      "dx": 0.125,
+      "integral_a_curl_a": 38.16604961191015,
+      "Q_H_discrete": 0.9667573304077306,
+      "Q_H_error_vs_1": 0.0332426695922694
+    },
+    {
+      "N": 97,
+      "box": 6.0,
+      "scale": 1.0,
+      "dx": 0.125,
+      "integral_a_curl_a": 38.54477542680848,
+      "Q_H_discrete": 0.9763505673680826,
+      "Q_H_error_vs_1": 0.023649432631917433
+    },
+    {
+      "N": 113,
+      "box": 7.0,
+      "scale": 1.0,
+      "dx": 0.125,
+      "integral_a_curl_a": 38.60753875081661,
+      "Q_H_discrete": 0.9779403809375404,
+      "Q_H_error_vs_1": 0.022059619062459568
+    },
+    {
+      "N": 129,
+      "box": 8.0,
+      "scale": 1.0,
+      "dx": 0.125,
+      "integral_a_curl_a": 38.64343229216013,
+      "Q_H_discrete": 0.9788495749610505,
+      "Q_H_error_vs_1": 0.021150425038949483
+    }
+  ]
+}
