@@ -1,0 +1,1 @@
+résultats et convergence
