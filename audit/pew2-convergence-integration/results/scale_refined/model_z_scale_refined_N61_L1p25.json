@@ -1,0 +1,35 @@
+{
+  "model": "PEW-C + model Z, reduced first test",
+  "scope": "fixed Hopf Q=1 texture; free amplitude; fixed chi_g=0; scale scan; orientation not varied",
+  "parameters": "dimensionless exploratory values, not physical predictions",
+  "results": [
+    {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 34,
+      "nfev": 37,
+      "energy_amplitude_orientation_phase": 100.69488138417542,
+      "energy_faddeev": 117.98149180407003,
+      "energy_total": 218.67637318824546,
+      "rho_min": 0.6299320938824925,
+      "rho_max": 1.0,
+      "rho_boundary": 1.0,
+      "gradient_inf_norm": 0.0002460059144862294,
+      "vacuum_energy_density_subtracted": 2.0,
+      "scale_L": 1.25,
+      "N": 61,
+      "box": 6.25,
+      "dx": 0.20833333333333304,
+      "alpha_prime": 1.0,
+      "lambda": 1.0,
+      "mu": 1.0,
+      "e0": 1.0,
+      "chi_g_fixed": 0.0,
+      "orientation_varied": false,
+      "elapsed_seconds": 2.494
+    }
+  ],
+  "lowest_sampled_scale": 1.25,
+  "lowest_sampled_energy": 218.67637318824546,
+  "warning": "A minimum among sampled scales is not a full 3D variational minimum or stability proof."
+}
