@@ -1,0 +1,28 @@
+{
+  "test": "phase relaxation, fixed Hopf orientation; rho held at vacuum value 1 for this isolated PDE test",
+  "N": 25,
+  "box": 5.0,
+  "dx": 0.41666666666666696,
+  "L": 1.25,
+  "phase_boundary": "chi=0 on boundary",
+  "phase_energy_before": 35.43346456469274,
+  "phase_energy_after": 29.966113551232887,
+  "energy_reduction": 5.467351013459854,
+  "chi_min": -0.3509115955262203,
+  "chi_max": 0.35091159552622025,
+  "amplitude_reference_solve": {
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "iterations": 19,
+    "nfev": 22,
+    "energy_amplitude_orientation_phase": 90.14314175044031,
+    "energy_faddeev": 97.51225824452992,
+    "energy_total": 187.65539999497022,
+    "rho_min": 0.6751552247079524,
+    "rho_max": 1.0,
+    "rho_boundary": 1.0,
+    "gradient_inf_norm": 6.982065818486056e-05,
+    "vacuum_energy_density_subtracted": 2.0
+  },
+  "warning": "This is a phase-only diagnostic with rho=1, not yet the coupled minimization of rho, chi, and n."
+}
