@@ -1,0 +1,206 @@
+{
+  "test": "restricted local orientation probe; fixed rho=1, chi_g=0; orientation varied via smooth SU(2) rotations",
+  "N": 25,
+  "box": 5.0,
+  "dx": 0.41666666666666696,
+  "L": 1.25,
+  "parameters_dimensionless": {
+    "alpha_prime": 1,
+    "lambda": 1,
+    "mu": 1,
+    "e0": 1
+  },
+  "base_energy": {
+    "orientation_gradient": 66.46474745555912,
+    "phase_connection_chi_zero": 35.43346456469274,
+    "faddeev": 97.51225824452992,
+    "total": 199.4104702647818
+  },
+  "modes": [
+    {
+      "mode": "local rotation about x",
+      "results": [
+        {
+          "epsilon": -0.2,
+          "orientation_gradient": 66.74525402220219,
+          "phase_connection_chi_zero": 35.54530140853917,
+          "faddeev": 97.55565446767594,
+          "total": 199.8462098984173,
+          "delta_total": 0.4357396336355066
+        },
+        {
+          "epsilon": -0.1,
+          "orientation_gradient": 66.534876036557,
+          "phase_connection_chi_zero": 35.46142404254182,
+          "faddeev": 97.52310742183988,
+          "total": 199.5194075009387,
+          "delta_total": 0.10893723615691897
+        },
+        {
+          "epsilon": -0.05,
+          "orientation_gradient": 66.48227972201886,
+          "phase_connection_chi_zero": 35.440454450835595,
+          "faddeev": 97.5149705464529,
+          "total": 199.43770471930736,
+          "delta_total": 0.027234454525569163
+        },
+        {
+          "epsilon": 0.0,
+          "orientation_gradient": 66.46474745555912,
+          "phase_connection_chi_zero": 35.43346456469274,
+          "faddeev": 97.51225824452992,
+          "total": 199.4104702647818,
+          "delta_total": 0.0
+        },
+        {
+          "epsilon": 0.05,
+          "orientation_gradient": 66.48227972201886,
+          "phase_connection_chi_zero": 35.44045445083559,
+          "faddeev": 97.51497054645293,
+          "total": 199.43770471930736,
+          "delta_total": 0.027234454525569163
+        },
+        {
+          "epsilon": 0.1,
+          "orientation_gradient": 66.534876036557,
+          "phase_connection_chi_zero": 35.46142404254182,
+          "faddeev": 97.52310742183988,
+          "total": 199.5194075009387,
+          "delta_total": 0.10893723615691897
+        },
+        {
+          "epsilon": 0.2,
+          "orientation_gradient": 66.74525402220219,
+          "phase_connection_chi_zero": 35.54530140853918,
+          "faddeev": 97.55565446767594,
+          "total": 199.8462098984173,
+          "delta_total": 0.4357396336355066
+        }
+      ]
+    },
+    {
+      "mode": "local rotation about y",
+      "results": [
+        {
+          "epsilon": -0.2,
+          "orientation_gradient": 66.74525402220219,
+          "phase_connection_chi_zero": 35.545301408539174,
+          "faddeev": 97.55565446767594,
+          "total": 199.8462098984173,
+          "delta_total": 0.4357396336355066
+        },
+        {
+          "epsilon": -0.1,
+          "orientation_gradient": 66.534876036557,
+          "phase_connection_chi_zero": 35.46142404254182,
+          "faddeev": 97.52310742183988,
+          "total": 199.5194075009387,
+          "delta_total": 0.10893723615691897
+        },
+        {
+          "epsilon": -0.05,
+          "orientation_gradient": 66.48227972201886,
+          "phase_connection_chi_zero": 35.440454450835595,
+          "faddeev": 97.51497054645293,
+          "total": 199.4377047193074,
+          "delta_total": 0.027234454525597585
+        },
+        {
+          "epsilon": 0.0,
+          "orientation_gradient": 66.46474745555912,
+          "phase_connection_chi_zero": 35.43346456469274,
+          "faddeev": 97.51225824452992,
+          "total": 199.4104702647818,
+          "delta_total": 0.0
+        },
+        {
+          "epsilon": 0.05,
+          "orientation_gradient": 66.48227972201884,
+          "phase_connection_chi_zero": 35.44045445083559,
+          "faddeev": 97.51497054645293,
+          "total": 199.43770471930736,
+          "delta_total": 0.027234454525569163
+        },
+        {
+          "epsilon": 0.1,
+          "orientation_gradient": 66.534876036557,
+          "phase_connection_chi_zero": 35.46142404254182,
+          "faddeev": 97.52310742183988,
+          "total": 199.5194075009387,
+          "delta_total": 0.10893723615691897
+        },
+        {
+          "epsilon": 0.2,
+          "orientation_gradient": 66.74525402220219,
+          "phase_connection_chi_zero": 35.54530140853918,
+          "faddeev": 97.55565446767592,
+          "total": 199.8462098984173,
+          "delta_total": 0.4357396336355066
+        }
+      ]
+    },
+    {
+      "mode": "local rotation about z",
+      "results": [
+        {
+          "epsilon": -0.2,
+          "orientation_gradient": 66.68544910810019,
+          "phase_connection_chi_zero": 35.6061138568486,
+          "faddeev": 97.53558460171003,
+          "total": 199.82714756665882,
+          "delta_total": 0.41667730187703
+        },
+        {
+          "epsilon": -0.1,
+          "orientation_gradient": 66.51992490962647,
+          "phase_connection_chi_zero": 35.476627117203584,
+          "faddeev": 97.51808990402562,
+          "total": 199.51464193085567,
+          "delta_total": 0.1041716660738814
+        },
+        {
+          "epsilon": -0.05,
+          "orientation_gradient": 66.4785419466374,
+          "phase_connection_chi_zero": 35.44425521716236,
+          "faddeev": 97.51371616379183,
+          "total": 199.4365133275916,
+          "delta_total": 0.02604306280980495
+        },
+        {
+          "epsilon": 0.0,
+          "orientation_gradient": 66.46474745555912,
+          "phase_connection_chi_zero": 35.43346456469274,
+          "faddeev": 97.51225824452992,
+          "total": 199.4104702647818,
+          "delta_total": 0.0
+        },
+        {
+          "epsilon": 0.05,
+          "orientation_gradient": 66.47854194663739,
+          "phase_connection_chi_zero": 35.44425521716235,
+          "faddeev": 97.51371616379184,
+          "total": 199.43651332759157,
+          "delta_total": 0.02604306280977653
+        },
+        {
+          "epsilon": 0.1,
+          "orientation_gradient": 66.51992490962647,
+          "phase_connection_chi_zero": 35.476627117203584,
+          "faddeev": 97.5180899040256,
+          "total": 199.51464193085565,
+          "delta_total": 0.10417166607385298
+        },
+        {
+          "epsilon": 0.2,
+          "orientation_gradient": 66.68544910810019,
+          "phase_connection_chi_zero": 35.60611385684861,
+          "faddeev": 97.53558460171001,
+          "total": 199.82714756665882,
+          "delta_total": 0.41667730187703
+        }
+      ]
+    }
+  ],
+  "interpretation": "Directional probe only. No amplitude/phase relaxation; selected smooth modes only; not a full stability proof. Boundary-vanishing rotations preserve the continuum Hopf class.",
+  "elapsed_seconds": null
+}
