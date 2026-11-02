@@ -1,0 +1,47 @@
+{
+  "description": "Refined scale scan at N=61, fixed box/L=5 and dx/L=1/6; amplitude relaxed, Hopf texture and chi_g fixed.",
+  "parameters": "alpha_prime=lambda=mu=e0=1; dimensionless exploratory values",
+  "results": [
+    {
+      "scale_L": 0.8,
+      "box": 4.0,
+      "dx": 0.1333333333333333,
+      "energy_amplitude_orientation_phase": 59.09989897914112,
+      "energy_faddeev": 184.3460809438592,
+      "energy_total": 243.44597992300032,
+      "rho_min": 0.5214073719182509,
+      "success": true
+    },
+    {
+      "scale_L": 1.0,
+      "box": 5.0,
+      "dx": 0.16666666666666696,
+      "energy_amplitude_orientation_phase": 77.39948586321991,
+      "energy_faddeev": 147.4768647550871,
+      "energy_total": 224.87635061830701,
+      "rho_min": 0.574552471831435,
+      "success": true
+    },
+    {
+      "scale_L": 1.25,
+      "box": 6.25,
+      "dx": 0.20833333333333304,
+      "energy_amplitude_orientation_phase": 100.69488138417542,
+      "energy_faddeev": 117.98149180407003,
+      "energy_total": 218.67637318824546,
+      "rho_min": 0.6299320938824925,
+      "success": true
+    },
+    {
+      "scale_L": 1.5,
+      "box": 7.5,
+      "dx": 0.25,
+      "energy_amplitude_orientation_phase": 124.22843388757691,
+      "energy_faddeev": 98.31790983672491,
+      "energy_total": 222.54634372430183,
+      "rho_min": 0.6757842207807262,
+      "success": true
+    }
+  ],
+  "warning": "Reduced prescribed-texture calculation only; no orientation/phase relaxation or full stability proof."
+}

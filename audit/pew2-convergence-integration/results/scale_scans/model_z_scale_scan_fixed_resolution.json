@@ -1,0 +1,77 @@
+{
+  "description": "Scale scan with fixed dimensionless resolution dx/L=0.25 and domain half-width/L=5; amplitude relaxed, Hopf texture and chi_g fixed.",
+  "parameters": "alpha_prime=lambda=mu=e0=1; dimensionless exploratory values",
+  "results": [
+    {
+      "scale_L": 0.5,
+      "box": 2.5,
+      "dx": 0.125,
+      "energy_amplitude_orientation_phase": 32.51481309040701,
+      "energy_faddeev": 271.83477767430924,
+      "energy_total": 304.34959076471625,
+      "rho_min": 0.4364455229190182,
+      "success": true
+    },
+    {
+      "scale_L": 0.65,
+      "box": 3.25,
+      "dx": 0.1625000000000001,
+      "energy_amplitude_orientation_phase": 45.19733953274066,
+      "energy_faddeev": 209.10367513408394,
+      "energy_total": 254.3010146668246,
+      "rho_min": 0.4922914212445233,
+      "success": true
+    },
+    {
+      "scale_L": 0.8,
+      "box": 4.0,
+      "dx": 0.20000000000000018,
+      "energy_amplitude_orientation_phase": 58.338821312491774,
+      "energy_faddeev": 169.89673604644312,
+      "energy_total": 228.2355573589349,
+      "rho_min": 0.5398820584133339,
+      "success": true
+    },
+    {
+      "scale_L": 1.0,
+      "box": 5.0,
+      "dx": 0.25,
+      "energy_amplitude_orientation_phase": 76.28267905008937,
+      "energy_faddeev": 135.91738883715462,
+      "energy_total": 212.200067887244,
+      "rho_min": 0.5937553920187599,
+      "success": true
+    },
+    {
+      "scale_L": 1.25,
+      "box": 6.25,
+      "dx": 0.3125,
+      "energy_amplitude_orientation_phase": 99.08530986227817,
+      "energy_faddeev": 108.73391106972372,
+      "energy_total": 207.81922093200188,
+      "rho_min": 0.6494099746821353,
+      "success": true
+    },
+    {
+      "scale_L": 1.5,
+      "box": 7.5,
+      "dx": 0.375,
+      "energy_amplitude_orientation_phase": 122.08827504284338,
+      "energy_faddeev": 90.61159255810307,
+      "energy_total": 212.69986760094645,
+      "rho_min": 0.6951551972980363,
+      "success": true
+    },
+    {
+      "scale_L": 2.0,
+      "box": 10.0,
+      "dx": 0.5,
+      "energy_amplitude_orientation_phase": 168.2718555374281,
+      "energy_faddeev": 67.95869441857731,
+      "energy_total": 236.2305499560054,
+      "rho_min": 0.7652120809379798,
+      "success": true
+    }
+  ],
+  "warning": "This remains a prescribed-texture reduced calculation; no orientation/phase relaxation and no full soliton stability proof."
+}

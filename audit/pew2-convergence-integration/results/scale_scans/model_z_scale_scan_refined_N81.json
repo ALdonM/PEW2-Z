@@ -1,0 +1,29 @@
+{
+  "description": "Refined scale scan at N=81, fixed box/L=5; amplitude relaxed, Hopf texture and chi_g fixed.",
+  "parameters": "alpha_prime=lambda=mu=e0=1; dimensionless exploratory values",
+  "results": [
+    {
+      "scale_L": 1.0,
+      "box": 5.0,
+      "dx": 0.125,
+      "energy_amplitude_orientation_phase": 77.77618483084521,
+      "energy_faddeev": 151.88878403959,
+      "energy_total": 229.66496887043522,
+      "rho_min": 0.5676141531662665,
+      "success": false,
+      "iterations": 50
+    },
+    {
+      "scale_L": 1.25,
+      "box": 6.25,
+      "dx": 0.15625,
+      "energy_amplitude_orientation_phase": 101.2447043535716,
+      "energy_faddeev": 121.511027231672,
+      "energy_total": 222.7557315852436,
+      "rho_min": 0.6227934956906095,
+      "success": true,
+      "iterations": 44
+    }
+  ],
+  "warning": "Reduced prescribed-texture calculation only; no orientation/phase relaxation or full stability proof."
+}
