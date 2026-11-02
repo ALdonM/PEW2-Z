@@ -1,0 +1,53 @@
+name: PEW2-Z validation
+
+on:
+  push:
+    branches:
+      - audit/pew2-convergence-integration
+  pull_request:
+    branches:
+      - audit/pew2-convergence-integration
+  workflow_dispatch:
+
+jobs:
+  validate-archives:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate archive structure, Python syntax and JSON
+        run: |
+          python - <<'PY'
+          import json, math, pathlib, py_compile, tempfile, zipfile
+          root = pathlib.Path(".")
+          archives = sorted(root.rglob("PEW_model_Z_archive_2026-11-02_v3_orientation.zip"))
+          if not archives:
+              raise SystemExit("V3 orientation archive not found")
+          archive = archives[0]
+          with zipfile.ZipFile(archive) as z:
+              names = z.namelist()
+              py_files = [n for n in names if n.endswith(".py")]
+              json_files = [n for n in names if n.endswith(".json")]
+              if not py_files:
+                  raise SystemExit("No Python scripts found in V3 archive")
+              if not json_files:
+                  raise SystemExit("No JSON results found in V3 archive")
+              with tempfile.TemporaryDirectory() as td:
+                  z.extractall(td)
+                  base = pathlib.Path(td)
+                  for name in py_files:
+                      py_compile.compile(str(base / name), doraise=True)
+                  def finite(value, where):
+                      if isinstance(value, float) and not math.isfinite(value):
+                          raise ValueError(f"Non-finite number at {where}")
+                      if isinstance(value, dict):
+                          for k, v in value.items(): finite(v, f"{where}/{k}")
+                      elif isinstance(value, list):
+                          for i, v in enumerate(value): finite(v, f"{where}/{i}")
+                  for name in json_files:
+                      data = json.loads((base / name).read_text(encoding="utf-8"))
+                      finite(data, name)
+          print(f"PASS: {len(py_files)} Python files compile; {len(json_files)} JSON files parse and contain finite numbers.")
+          PY
